@@ -14,7 +14,19 @@ variable = "vpc_name" {
     default = t2.small
 }
 
-variable = "public_subnet_name"{
+variable = "public_subnet_name" {
     type = string
 }
 
+variable = "private_subnet_name" {
+    type = string 
+
+}
+
+variable = "my_keypair" {
+    default= "aws_keypairta"
+}
+
+variable = "number_of_instances" {
+    description = "Total amount of instances"
+}
