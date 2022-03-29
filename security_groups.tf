@@ -12,7 +12,7 @@ resource "aws_security_group" "my_public_app_sg" {
     cidr_blocks = ["0.0.0.0/0"]
   }
 
-  # OUTBOUT CONNECTIONS
+  # OUTBOUND CONNECTIONS
   egress {
     description = "Allow access to the world"
     from_port   = 0
