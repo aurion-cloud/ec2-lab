@@ -18,10 +18,3 @@ variable = "public_subnet_name"{
     type = string
 }
 
-variable = "my_keypair" {
-    default = "aws_keypair"
-}
-
-variable = "number_of_instances" {
-    description = "Amount of instances for my public subnet"
-}
